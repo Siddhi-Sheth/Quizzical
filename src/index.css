@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+* {
+    background: border-box;
+}
+
+body{
+    background-image: url(/public/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Home-page{
+    text-align: center;
+    color: #293264;
+    margin-top: 180px;
+}
+
+.main-header{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Karla', sans-serif;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Inter', sans-serif;
+}
+
+.submit--btn{
+    width: 200px;
+    height: 50px;
+    display: block;
+    margin: auto;
+    color: #F5F7FB;
+    background: #4D5B9E;
+    margin-top: 30px;
+    border-radius: 15px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: 500px;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+
+.Quiz-page{
+    text-align: left;
+    color: #293264;
+    margin: 100px;
+    margin-top: 50px;
+
+}
+
+.Quiz-question{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Karla', sans-serif;
+}
+
+.Quiz-options{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 50px;
+    padding: 0%;
+}
+
+ul {
+    list-style: none;
+}
+
+li{
+    border: 0.77px solid #4D5B9E;
+    border-radius: 10px;
+    padding: 3px 20px;
+    text-align: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500px;
+    font-family: 'Inter', sans-serif;
+    color: #293264;
+    cursor: pointer;
+}
+
+li:hover{
+    background-color: #D6DBF5;
+}
+
+hr {
+    border: 0.79px solid #DBDEF0;
+}

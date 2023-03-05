@@ -1,0 +1,40 @@
+<!-- // import React from "react";
+// import axios from "axios";
+
+// function Quiz(){
+
+//   const [questions, setQuestions] = React.useState([]);
+
+//   React.useEffect(() => {
+//     axios
+//       .get('https://opentdb.com/api.php?amount=5&category=18&difficulty=easy&type=multiple')
+//       .then(response => {
+//         console.log(response.data.results);
+//         setQuestions(response.data.results);
+//       })
+//       .catch(error => {
+//         console.log(error);
+//       });
+//   }, []);
+  
+
+//     return (
+//         <form className="Quiz-page">
+//           {questions.map((item, index) => (
+//             <div key={index}>
+//               <h2 className="Quiz-question">{item.question}</h2>
+//               <ul className="Quiz-options">
+//                 {item.incorrect_answers.map(answer => (
+//                   <li key={answer} >{answer}</li>
+//                 ))}
+//                 <li key={item.correct_answer}>{item.correct_answer}</li>
+//               </ul>
+//               <hr />
+//             </div>
+//           ))}
+//           <button className="submit--btn">Check answers</button>
+//         </form>
+//     );
+// }
+
+// export default Quiz -->
